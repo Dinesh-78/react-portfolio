@@ -1,0 +1,94 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+
+.hero img{
+ border-radius: 20rem 10rem 20rem;
+ margin: 90px 20px;
+ width: 20rem;
+ animation: ano 4s infinite;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@keyframes ano {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+
+.title{
+    font-size: 3rem;
+    
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.content{
+    animation: tit 1s ease-in-out;
+}
+
+@keyframes tit {
+    0%{
+       
+        transform: translateY(-30px);
+    }
+    100%{
+        
+        transform: translateY(0px);
+    }
+    
+}
+
+
+.intro{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 300px;
+    margin-left: 40px;
+}
+
+.hero-research{
+    border-radius: 30px 10px;
+    margin-top: 30px;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 10px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.hero-research:hover{
+    border: 2px solid white;
+}
+
+.hero-resume{
+    border-radius: 30px 10px;
+    margin-top: 30px;
+    align-items: center;
+    
+    padding: 20px 10px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.hero-resume:hover{
+    border: 2px solid white;
+}
+

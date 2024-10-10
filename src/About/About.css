@@ -1,0 +1,85 @@
+
+/* .bars{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill1{
+    margin: 153px 20px;
+    width: 200px;
+    height: 160px;
+    background-color: aliceblue;
+    color: red;
+    position: relative;
+    z-index: -1;
+}
+
+
+#numb{
+ font-weight: 700;
+
+}
+
+.spin-bar circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    
+  
+    animation: bar 2s linear forwards;
+}
+
+
+
+svg{
+    position: absolute;
+    top: 51rem;
+    left: 10rem;
+}
+
+.skill2{
+    
+        margin: 153px 20px;
+        width: 200px;
+        height: 160px;
+        
+        position: relative;
+   
+} */
+
+.circle-background{
+    fill:none;
+    stroke: white;
+}
+
+.progress{
+    fill: none;
+   
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation: barani 2s linear forwards;
+   
+}
+
+@keyframes barani {
+   0%{
+    stroke-dashoffset: 270%;
+   } 
+  
+}
+
+text{
+    font-size: 1.5rem;
+    font-weight: 900;
+   fill: white;
+}
+
+.bar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
